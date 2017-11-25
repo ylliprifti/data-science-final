@@ -1,13 +1,13 @@
 
 library(shiny)
-rm(list=ls())
-source("../../r-source/params.R")
-source("../../r-source/libraries.R")
-source("../../r-source/commonFunctions.R")
+library(stringr)
 
-file.copy(from="../../samples/", to="./", 
-          overwrite = TRUE, recursive = TRUE, 
-          copy.mode = TRUE)
+source("r-source-copy/params.R")
+source("r-source-copy/commonFunctions.R")
+
+#file.copy(from="../../samples/", to="./", 
+#          overwrite = TRUE, recursive = TRUE, 
+#          copy.mode = TRUE)
 
 
 local_env <- setEnv(working_dir, file_name, save_from, file_to_disk, sample_directory, blogs_fn, news_fn, twitter_fn, FRACTION_READ, SEED)

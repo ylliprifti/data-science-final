@@ -44,4 +44,8 @@ Word Cloud
 How to run the application
 ========================================================
 
-To test the application follow this link:
+**To test the application follow this link:** [https://ylli.shinyapps.io/WordPrediction/]
+
+**To clone the source of the app follow this link:** [https://github.com/ylliprifti/data-science-final]
+
+

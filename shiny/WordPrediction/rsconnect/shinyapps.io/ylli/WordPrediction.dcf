@@ -1,0 +1,12 @@
+name: WordPrediction
+title: WordPrediction
+username:
+account: ylli
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 239836
+bundleId: 1095118
+url: https://ylli.shinyapps.io/WordPrediction/
+when: 1511569967.29612
+asMultiple: FALSE
+asStatic: FALSE
